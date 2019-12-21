@@ -1,5 +1,5 @@
-$backColor: rgb(173, 6, 6);
-$buttonColor: rgb(253, 251, 255);
+$backColor: rgb(201, 5, 5);
+$buttonColor: rgb(245, 190, 168);
 
 @font-face {
   font-family: Roya;
@@ -43,10 +43,9 @@ button {
   font-size: 40px;
   display: block;
   margin: 35px auto;
-  // padding: 20px;
   border: 0;
   border-radius: 15px;
   background: $buttonColor;
-  color: rgb(85, 80, 80);
+  color: rgb(0, 0, 0);
   outline: none;
 }

@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #ad0606;
+  background: #c90505;
   margin: 0;
 }
 
@@ -42,8 +42,8 @@ button {
   margin: 35px auto;
   border: 0;
   border-radius: 15px;
-  background: #fdfbff;
-  color: #555050;
+  background: #f5bea8;
+  color: black;
   outline: none;
 }
 /*# sourceMappingURL=style.css.map */
