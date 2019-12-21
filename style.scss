@@ -1,0 +1,52 @@
+$backColor: rgb(173, 6, 6);
+$buttonColor: rgb(253, 251, 255);
+
+@font-face {
+  font-family: Roya;
+  src: url("/Fonts/Roya.ttf");
+}
+
+body {
+  background: $backColor;
+  margin: 0;
+}
+
+h1 {
+  margin: 80px 0;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: Roya;
+  font-weight: bold;
+  width: 100%;
+  top: 40%;
+  left: 0;
+}
+
+input {
+  font-family: "Roya";
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 450px;
+  height: 15px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 0;
+  border-radius: 15px;
+}
+
+button {
+  font-family: "Roya";
+  text-align: center;
+  width: 490px;
+  font-size: 40px;
+  display: block;
+  margin: 35px auto;
+  // padding: 20px;
+  border: 0;
+  border-radius: 15px;
+  background: $buttonColor;
+  color: rgb(85, 80, 80);
+  outline: none;
+}
